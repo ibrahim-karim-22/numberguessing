@@ -2,7 +2,7 @@
   "name": "numberguessinggame",
   "version": "1.0.0",
   "description": "number guessing game javascript practice",
-  "source": "number-guessing-game.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel --open",
     "build": "parcel build"
