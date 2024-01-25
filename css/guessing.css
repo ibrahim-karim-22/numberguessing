@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/wallpaper.jpg);
+}
+@media (min-width: 50px) and (max-width: 450px) {
+    body {
+        background-size: 477% 900%;
+        background-position: 55% 2%;
+        
+    }
+    }
+@media (min-width: 450px) and (max-width: 800px) {
+    body {
+        background-size: 222% 900%;
+        background-position: 55% 2%;
+        
+    }
+    }
+@media (min-width: 800px) and (max-width: 1250px) {
+    body {
+        background-size: 144% 1222%;
+        background-position: 70% 2%;
+    }
+    }
+@media (min-width: 1250px) and (max-width: 3140px) {
+    body {
+            background-size: 122% 1333%;
+            background-position: 70% 4%;
+        }
+        }
+        h1 {
+            text-align: center;
+            color: rgb(0, 136, 255);
+            
+            font-size: 333%;
+            text-shadow: black 5px 3px;
+            font-family: 'Press Start 2P', system-ui;
+        
+        }
+        h1:hover {
+            color: rgb(0, 255, 0);
+            cursor:crosshair;
+        }
+        @media (min-width: 50px) and (max-width: 800px) {
+            h1 {
+                font-size: 300%;
+            }
+        }
